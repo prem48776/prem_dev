@@ -1,0 +1,22 @@
+.App{
+    height: 100%;
+    width: 100%;
+    max-width: 1520px;
+    background: #000;
+}
+.home_page{
+    height: 90vh;
+    width: 100%;
+    background-image:url('./photos/banner.png');
+    background-position: center;
+    background-size: cover;
+    scroll-behavior: smooth;
+    background-repeat: no-repeat;
+    
+}
+
+@media screen and (max-width: 800px) {
+    .home_page {
+        
+    }
+  }
